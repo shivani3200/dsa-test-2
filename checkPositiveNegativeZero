@@ -1,0 +1,19 @@
+// checking for positive negative or zero number in java
+
+public class checkNumber{
+public static void main(String[] args){
+      int x = 45;
+      //check zero
+          if(x==0){
+             System.out.println("this number is zero");
+          }
+      //check postive
+          else if(x>0){
+            System.out.println("this number is positive");
+          }
+      //check negative
+          else{
+            System.out.println("this number is negative");
+          }
+     }
+}
